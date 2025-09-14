@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KBA REC — Kerala Blockchain Academy Innovation Club (KBAIC)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: '#eff6ff',
+              100: '#dbeafe', 
+              200: '#bfdbfe',
+              300: '#93c5fd',
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          },
+          fontFamily: {
+            'inter': ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 to-white text-gray-900 font-inter antialiased">
+  <div class="max-w-7xl mx-auto px-6 py-8">
+    <!-- Header -->
+    <header class="flex items-center justify-between gap-4 mb-12">
+      <div class="flex items-center gap-4">
+        <img src="Photos/Logo/Logo Only - Dark.png" alt="KBA dsf" class="w-14 h-14 rounded-xl shadow-lg" />
+
+        <div>
+          <div class="font-extrabold text-gray-900 text-lg">KBA REC</div>
+          <div class="text-gray-600 text-sm max-w-md">Kerala Blockchain Academy Innovation Club — Rajalakshmi Engineering College</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex space-x-8">
+        <a href="#about" class="text-gray-600 hover:text-primary-600 font-semibold transition-colors">About</a>
+        <a href="#team" class="text-gray-600 hover:text-primary-600 font-semibold transition-colors">Team</a>
+        <a href="#contacts" class="text-gray-600 hover:text-primary-600 font-semibold transition-colors">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="grid lg:grid-cols-3 gap-8 mb-16">
+      <div class="lg:col-span-2 bg-white rounded-2xl p-8 shadow-xl border border-blue-100">
+        <h1 class="text-3xl font-bold text-gray-900 mb-3">What is KBA?</h1>
+        <p class="text-gray-600 mb-6 text-lg leading-relaxed">Kerala Blockchain Academy (KBA) is a Centre of Excellence under the Kerala University of Digital Sciences, Innovation and Technology (Digital University Kerala) focused on blockchain education, research and industry collaboration.</p>
+
+        <div class="mb-6">
+          <h2 id="about" class="text-2xl font-bold text-gray-900 mb-3">What is KBAIC?</h2>
+          <p class="text-gray-600 leading-relaxed">KBA Innovation Club (KBAIC) is an initiative by KBA to help students explore blockchain & Web3 technologies through mentorship, hands-on projects and industry exposure.</p>
+        </div>
+
+        <div class="mb-6">
+          <h2 class="text-2xl font-bold text-gray-900 mb-3">What is KBA REC?</h2>
+          <p class="text-gray-600 leading-relaxed">KBA REC is the Rajalakshmi Engineering College chapter of the KBAIC — a student-driven body that organises workshops, projects and industry-academia interactions under the guidance of KBA.</p>
+        </div>
+
+        <div class="space-y-3">
+          <div class="flex items-center gap-3">
+            <div class="w-3 h-3 bg-primary-500 rounded-full"></div>
+            <div><strong class="text-gray-900">Center of Excellence:</strong> <span class="text-gray-600">Kerala University of Digital Sciences, Innovation & Technology</span></div>
+          </div>
+          <div class="flex items-center gap-3">
+            <div class="w-3 h-3 bg-primary-500 rounded-full"></div>
+            <div><strong class="text-gray-900">Programs:</strong> <span class="text-gray-600">Foundation to advanced blockchain developer courses, internships & startup programs</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-xl border border-primary-200">
+  <h3 class="text-2xl font-bold text-primary-900 mb-4">Get Involved</h3>
+  <p class="text-primary-700 mb-6 leading-relaxed">
+    Join hands with industry mentors, attend BlockHash LIVE, and collaborate on real projects.
+  </p>
+  <a href="#team" class="inline-flex items-center px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-bold rounded-xl transition-colors shadow-lg">
+    Meet the team
+  </a>
+  <div class="relative w-full max-w-xl mx-auto mt-8 overflow-hidden rounded-2xl shadow-lg">
+  <div id="slider" class="flex transition-transform duration-500">
+    <img src="Photos/Slider/13launch.jpg" class="w-full flex-shrink-0" />
+    <img src="Photos/Slider/providence4.jpeg" class="w-full flex-shrink-0" />
+    <img src="Photos/Slider/rcet1.jpeg" class="w-full flex-shrink-0" />
+      <img src="Photos/Slider/rcet3.jpeg" class="w-full flex-shrink-0" />
+  </div>
+  <!-- Controls -->
+  <button id="prev" class="absolute top-1/2 left-4 -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-100">
+    ◀
+  </button>
+  <button id="next" class="absolute top-1/2 right-4 -translate-y-1/2 bg-white p-2 rounded-full shadow hover:bg-gray-100">
+    ▶
+  </button>
+</div>
+      
+</div>
+
+
+    </div>
+
+    <!-- Team Section -->
+    <div class="mb-8">
+      <h2 id="team" class="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+        <div class="w-8 h-1 bg-primary-500 rounded"></div>
+        Team & Leadership
+      </h2>
+    </div>
+
+    <!-- Advisers -->
+    <div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6">Advisers / Chairs</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/9.png" data-name="Murali Bhaskar">
+          <img src="Photos/9.png" alt="Murali Bhaskar" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Dr.Murali Bhaskar</div>
+          <div class="text-primary-600 text-sm font-semibold">Advisor / Chair</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/10.png" data-name="Kumar P">
+          <img src="Photos/10.png" alt="Kumar P" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Dr.Kumar P</div>
+          <div class="text-primary-600 text-sm font-semibold">Advisor / Chair</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/8.png" data-name="Malathy">
+          <img src="Photos/8.png" alt="Malathy, CSE HOD" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Dr.Malathy</div>
+          <div class="text-primary-600 text-sm font-semibold">CSE HOD — Rajalakshmi Engineering College</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Executive Board -->
+    <div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6">Executive Board</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/12.png" data-name="Dr. Muneeshwari R">
+          <img src="Photos/12.png" alt="Dr. Muneeshwari R" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Dr. Muneeshwari R</div>
+          <div class="text-primary-600 text-sm font-semibold">KBACI Coordinator</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/11.png" data-name="Dr. Manoranjini J">
+          <img src="Photos/11.png" alt="Dr. Manoranjini J" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Dr. Manoranjini J</div>
+          <div class="text-primary-600 text-sm font-semibold">Executive Member</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/6.png" data-name="Bhuvaneswaran B">
+          <img src="Photos/6.png" alt="Bhuvaneswaran B" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Bhuvaneswaran B</div>
+          <div class="text-primary-600  text-sm font-semibold">Executive Member</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="images/santhiya_m.jpg" data-name="Santhiya M">
+          <img src="images/santhiya_m.jpg" alt="Santhiya M" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Santhiya M</div>
+          <div class="text-primary-600 text-sm font-semibold">Executive Member</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ambassadors / Executive Members -->
+    <div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6">Ambassadors / Executive Members</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/1.png" data-name="Raghavan S">
+          <img src="Photos/1.png" alt="Raghavan S" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Raghavan S</div>
+          <div class="text-primary-600 text-sm font-semibold">Ambassador</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/5.png" data-name="Laksheta SV">
+          <img src="Photos/5.png" alt="Laksheta SV" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Laksheta SV</div>
+          <div class="text-primary-600 text-sm font-semibold">Ambassador</div>
+        </div>
+        
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/2.png" data-name="Varsha Thomas">
+          <img src="Photos/2.png" alt="Varsha Thomas" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Varsha Thomas</div>
+          <div class="text-primary-600 text-sm font-semibold">Executive Member</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/3.png" data-name="Swetha J">
+          <img src="Photos/3.png" alt="Swetha J" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Swetha J</div>
+          <div class="text-primary-600 text-sm font-semibold">Executive Member</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/4.png" data-name="Mymoon Beevi B">
+          <img src="Photos/4.png" alt="Mymoon Beevi B" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Mymoon Beevi B</div>
+          <div class="text-primary-600 text-sm font-semibold">Secretary</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/7.png" data-name="Tanisha C A">
+          <img src="Photos/7.png" alt="Tanisha C A" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Tanisha C A</div>
+          <div class="text-primary-600 text-sm font-semibold">Treasurer</div>
+        </div>
+      </div>
+    </div>
+
+   
+      <div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6">Community Partner</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/Partners/Perplexity-Logo-Single-Horizontal-Dark.svg" data-name="Perplexity">
+          <img src="Photos/Partners/Perplexity-Logo-Single-Horizontal-Dark.svg" alt="OliveIOT" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Perplexity</div>
+          <div class="text-primary-600 text-sm font-semibold">Campus Partner</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/Partners/Kenesis.jpeg" data-name="Kenesis">
+          <img src="Photos/Partners/Kenesis.jpeg" alt="Jerry AI" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Kenesis</div>
+          <div class="text-primary-600 text-sm font-semibold">Startup Partner</div>
+        </div>
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Coming Soon" data-name="Coming Soon">
+  <img src="https://via.placeholder.com/400x200?text=Coming+Soon" alt="Coming Soon" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+  <div class="font-bold text-gray-900 mb-1">Coming Soon</div>
+  <div class="text-primary-600 text-sm font-semibold"></div>
+</div>
+<div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Coming Soon" data-name="Coming Soon">
+  <img src="https://via.placeholder.com/400x200?text=Coming+Soon" alt="Coming Soon" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+  <div class="font-bold text-gray-900 mb-1">Coming Soon</div>
+  <div class="text-primary-600 text-sm font-semibold"></div>
+</div>
+
+      </div>
+    </div>
+  <div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6">Industrial Partner/Sponsors</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/Partners/olive.jpeg" data-name="OliveIOT">
+          <img src="Photos/Partners/olive.jpeg" alt="OliveIOT" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">OliveIOT</div>
+          <div class="text-primary-600 text-sm font-semibold">Robin Thomas</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/Partners/jerryinc_logo.jpeg" data-name="Jerry AI">
+          <img src="Photos/Partners/jerryinc_logo.jpeg" alt="Jerry AI" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Jerry AI</div>
+          <div class="text-primary-600 text-sm font-semibold">Art Agrawal</div>
+        </div>
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Coming Soon" data-name="Coming Soon">
+  <img src="https://via.placeholder.com/400x200?text=Coming+Soon" alt="Coming Soon" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+  <div class="font-bold text-gray-900 mb-1">Coming Soon</div>
+  <div class="text-primary-600 text-sm font-semibold"></div>
+</div>
+
+<div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Coming Soon" data-name="Coming Soon">
+  <img src="https://via.placeholder.com/400x200?text=Coming+Soon" alt="Coming Soon" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+  <div class="font-bold text-gray-900 mb-1">Coming Soon</div>
+  <div class="text-primary-600 text-sm font-semibold"></div>
+</div>
+
+      </div>
+    </div>
+<div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6">University Partners</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/University/princeton_university_logo.jpeg" data-name="Princeton University">
+          <img src="Photos/University/princeton_university_logo.jpeg" alt="Princeton Universit" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Princeton University (Ranajoy)</div>
+          <div class="text-primary-600 text-sm font-semibold">Egg Harbor, New Jersey, United States</div>
+        </div>
+
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/University/Clark.jpeg" data-name="Clark University">
+          <img src="Photos/University/Clark.jpeg" alt="Clark University" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Clark University (GOPISETTY SAI CHARAN)</div>
+          <div class="text-primary-600 text-sm font-semibold">Worcester, Massachusetts, United States</div>
+        </div>
+<div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer">
+  <!-- Reel style container -->
+  <div class="relative w-full max-w-xs mx-auto rounded-lg overflow-hidden shadow" style="padding-top: 100.78%;"> <!-- 16:9 flipped = 9:16 -->
+    <iframe
+      class="absolute top-0 left-0 w-full h-full"
+      src="https://www.youtube.com/embed/p_WSRt4pjcM"
+      title="YouTube Shorts video"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+<div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Coming Soon" data-name="Coming Soon">
+  <img src="https://via.placeholder.com/400x200?text=Coming+Soon" alt="Coming Soon" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+  <div class="font-bold text-gray-900 mb-1">Coming Soon</div>
+  <div class="text-primary-600 text-sm font-semibold"></div>
+</div>
+
+
+
+     
+      </div>
+    </div>
+     <!-- Core Members -->
+    <div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-12">
+      <h3 class="text-2xl font-bold text-gray-900 mb-6">Core Members</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Srivarshni S</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Shanmuganathan S</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Sree Varssini K S</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Rama Thulasi G</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Miruthula Kg</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Tejushree Sanjeevi Kumar</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Manicka Meenakshi S</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Ganeshan M</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">S Darshan</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Prathyush R</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Pranav Kumar J</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Kannan R</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Jagadeshwaran</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Parthiban</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Gokulakrishnan K</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Divyadharshini K</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Sreya G</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Hariraj G</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Sreyaskari M</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Srihari S</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Girija S P</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Sharvesh R</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Farheen Tabassum H</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Dayanithi V</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Sudharshan Krishnaa L K</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Uma Al</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Vishwak S</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Keshavallu B</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Tharunraj</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Kamalesh S</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">P VELAN ARUL</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Deepa S</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Madhumitha B M</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Kumaran S</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Ashna V</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Ridhanya J</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Madhumitha P</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Giridharan E</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Monic Aditya A</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Tejaswin</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Veronica Regina Paul</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Renithjoel R R</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Thirumurugan</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Subramanian N</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Sarveshwar P</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Subramanian S</div>
+        <div class="bg-blue-50 border border-blue-200 rounded-lg px-4 py-3 text-gray-800 font-medium text-sm">Manishaa G</div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer id="contacts" class="text-center text-gray-600 border-t border-blue-100 pt-8">
+      <div class="mb-2">Contact: kbaclub@rajalakshmi.edu.in • +91 6381648566</div>
+      <div class="text-primary-600 font-semibold">Made with ♥ — KBA REC</div>
+    </footer>
+  </div>
+
+  <!-- Image Modal -->
+  <div id="modal" class="fixed inset-0 bg-black bg-opacity-75 hidden items-center justify-center p-6 z-50">
+    <div class="bg-white rounded-2xl p-6 max-w-2xl w-full max-h-[90vh] overflow-auto">
+      <img id="modalImg" src="" alt="" class="w-full h-auto max-h-96 object-cover rounded-xl mb-4">
+      <div class="flex justify-between items-center">
+        <div id="modalName" class="font-bold text-xl text-gray-900"></div>
+        <button id="closeBtn" class="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-colors">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+ const slider = document.getElementById("slider");
+  const slides = slider.children.length;
+  let index = 0;
+  let interval;
+
+  function showSlide(i) {
+    index = (i + slides) % slides;
+    slider.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  // Next & Prev buttons
+  document.getElementById("next").addEventListener("click", () => {
+    showSlide(index + 1);
+    resetAutoSlide();
+  });
+
+  document.getElementById("prev").addEventListener("click", () => {
+    showSlide(index - 1);
+    resetAutoSlide();
+  });
+
+  // Auto slide every 3s
+  function startAutoSlide() {
+    interval = setInterval(() => {
+      showSlide(index + 1);
+    }, 3000);
+  }
+
+  function resetAutoSlide() {
+    clearInterval(interval);
+    startAutoSlide();
+  }
+
+  startAutoSlide();
+
+    // Open image modal when clicking a person
+    document.querySelectorAll('.person').forEach(card => {
+      card.addEventListener('click', () => {
+        const img = card.dataset.img || card.querySelector('img').src;
+        const name = card.dataset.name || '';
+        document.getElementById('modalImg').src = img;
+        document.getElementById('modalName').textContent = name;
+        document.getElementById('modal').classList.remove('hidden');
+        document.getElementById('modal').classList.add('flex');
+      });
+    });
+
+    // Close modal
+    document.getElementById('closeBtn').addEventListener('click', () => {
+      document.getElementById('modal').classList.add('hidden');
+      document.getElementById('modal').classList.remove('flex');
+    });
+
+    // Close modal when clicking outside
+    document.getElementById('modal').addEventListener('click', (e) => {
+      if (e.target.id === 'modal') {
+        document.getElementById('modal').classList.add('hidden');
+        document.getElementById('modal').classList.remove('flex');
+      }
+    });
+
+    // Fallback for missing images
+    document.querySelectorAll('.person img').forEach(img => {
+      img.addEventListener('error', () => {
+        const name = img.alt || 'Unknown';
+        const svg = `data:image/svg+xml;utf8,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600"><rect width="100%" height="100%" fill="#dbeafe"/><text x="50%" y="50%" fill="#1e40af" font-family="Arial,Helvetica" font-size="40" text-anchor="middle" dominant-baseline="middle">' + name + '</text></svg>')}`;
+        img.src = svg;
+      });
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
