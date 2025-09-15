@@ -35,21 +35,33 @@
 <body class="min-h-screen bg-gradient-to-br from-blue-50 to-white text-gray-900 font-inter antialiased">
   <div class="max-w-7xl mx-auto px-6 py-8">
     <!-- Header -->
-    <header class="flex items-center justify-between gap-4 mb-12">
-      <div class="flex items-center gap-4">
-        <img src="Photos/Logo/Logo Only - Dark.png" alt="KBA dsf" class="w-14 h-14 rounded-xl shadow-lg" />
+ <header class="flex items-center justify-between gap-4 mb-12">
+  <!-- Left Logos -->
+  <div class="flex items-center gap-6">
+    <!-- College Logo -->
+    <img src="Photos/Logo/rec.svg" alt="REC Logo" class="w-26 h-26 rounded-xl shadow-lg" />
 
-        <div>
-          <div class="font-extrabold text-gray-900 text-lg">KBA REC</div>
-          <div class="text-gray-600 text-sm max-w-md">Kerala Blockchain Academy Innovation Club — Rajalakshmi Engineering College</div>
-        </div>
+    <!-- KBA REC Logo + Text -->
+    <div class="flex items-center gap-4">
+      <img src="Photos/Logo/Logo Only - Dark.png" alt="KBA REC Logo" class="w-24 h-24 rounded-xl shadow-lg" />
+      <div>
+        <div class="font-extrabold text-gray-900 text-lg">KBA REC</div>
+     <div class="text-gray-700 text-md font-semibold max-w-md border-l-4 border-primary-500 pl-2">
+  Kerala Blockchain Academy Innovation Club — Rajalakshmi Engineering College
+</div>
+
       </div>
-      <nav class="hidden md:flex space-x-8">
-        <a href="#about" class="text-gray-600 hover:text-primary-600 font-semibold transition-colors">About</a>
-        <a href="#team" class="text-gray-600 hover:text-primary-600 font-semibold transition-colors">Team</a>
-        <a href="#contacts" class="text-gray-600 hover:text-primary-600 font-semibold transition-colors">Contact</a>
-      </nav>
-    </header>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="hidden md:flex space-x-8">
+    <a href="#about" class="text-gray-600 hover:text-primary-600 font-semibold transition-colors">About</a>
+    <a href="#team" class="text-gray-600 hover:text-primary-600 font-semibold transition-colors">Team</a>
+    <a href="#contacts" class="text-gray-600 hover:text-primary-600 font-semibold transition-colors">Contact</a>
+  </nav>
+</header>
+
 
     <!-- Hero Section -->
     <div class="grid lg:grid-cols-3 gap-8 mb-16">
@@ -115,6 +127,39 @@
         Team & Leadership
       </h2>
     </div>
+<!-- Principal Section -->
+<div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
+  <h3 class="text-2xl font-bold text-gray-900 mb-6">College Principal</h3>
+  <div class="flex justify-center">
+    <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/14.png" data-name="Principal">
+      <img src="Photos/14.png" alt="Principal" class="w-56 h-56 object-cover rounded-lg mb-4 shadow-md">
+      <div class="font-bold text-gray-900 mb-1">Dr. S.N. Murugesan</div>
+      <div class="text-primary-600 text-sm font-semibold">Principal of Rajalakshmi Engineering College</div>
+    </div>
+  </div>
+</div>
+
+<!-- Department of CSE - HoD Section -->
+<div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
+  <h3 class="text-2xl font-bold text-gray-900 mb-6">Department of CSE</h3>
+  <div class="flex justify-center">
+    <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/8.png" data-name="Malathy">
+      <img src="Photos/8.png" alt="HOD CSE" class="w-56 h-56 object-cover rounded-lg mb-4 shadow-md">
+      <div class="font-bold text-gray-900 mb-1">Dr. Malathy</div>
+      <div class="text-primary-600 text-sm font-semibold">Professor & Head of the Department, CSE</div>
+    </div>
+  </div>
+</div>
+
+<!-- REC & KBA Membership Certificate Section -->
+<div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
+  <h3 class="text-2xl font-bold text-gray-900 mb-6">REC & KBA Membership Certificate</h3>
+  <div class="flex justify-center">
+    <div class="bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all">
+      <img src="Photos/Membership.jpg" alt="REC & KBA Membership Certificate" class="w-full max-w-md object-contain rounded-lg shadow-md">
+    </div>
+  </div>
+</div>
 
     <!-- Advisers -->
     <div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
@@ -123,13 +168,17 @@
         <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/9.png" data-name="Murali Bhaskar">
           <img src="Photos/9.png" alt="Murali Bhaskar" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
           <div class="font-bold text-gray-900 mb-1">Dr.Murali Bhaskar</div>
-          <div class="text-primary-600 text-sm font-semibold">Advisory Chair</div>
+              <div class="text-primary-600 text-sm font-semibold">Professor & Dean (Academics)</div>
+         
+          <div class="text-primary-600 text-sm font-semibold">KBA REC-Advisory Chair</div>
         </div>
 
         <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/10.png" data-name="Kumar P">
           <img src="Photos/10.png" alt="Kumar P" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
           <div class="font-bold text-gray-900 mb-1">Dr.Kumar P</div>
-          <div class="text-primary-600 text-sm font-semibold">Advisory Chair</div>
+         <div class="text-primary-600 text-sm font-semibold">Professor-CSE</div>
+         
+          <div class="text-primary-600 text-sm font-semibold">KBA REC-Advisory Chair</div>
         </div>
 
       </div>
@@ -139,32 +188,32 @@
     <div class="bg-white rounded-2xl p-8 shadow-xl border border-blue-100 mb-8">
       <h3 class="text-2xl font-bold text-gray-900 mb-6">Executive Board</h3>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/8.png" data-name="Malathy">
-          <img src="Photos/8.png" alt="Malathy, CSE HOD" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
-          <div class="font-bold text-gray-900 mb-1">Dr.Malathy</div>
-          <div class="text-primary-600 text-sm font-semibold">CSE HOD — Rajalakshmi Engineering College</div>
-        </div>
+       
         <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/12.png" data-name="Dr. Muneeshwari R">
           <img src="Photos/12.png" alt="Dr. Muneeshwari R" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
           <div class="font-bold text-gray-900 mb-1">Dr. Muneeshwari R</div>
+          <div class="text-primary-600 text-sm font-semibold">Professor & AHOD-CSE</div>
           <div class="text-primary-600 text-sm font-semibold">Executive Member</div>
         </div>
 
         <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/11.png" data-name="Dr. Manoranjini J">
           <img src="Photos/11.png" alt="Dr. Manoranjini J" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
           <div class="font-bold text-gray-900 mb-1">Dr. Manoranjini J</div>
+          <div class="text-primary-600 text-sm font-semibold">Associate Professor & Deputy HOD/CSE</div>
           <div class="text-primary-600 text-sm font-semibold">Executive Member</div>
         </div>
 
         <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/6.png" data-name="Bhuvaneswaran B">
           <img src="Photos/6.png" alt="Bhuvaneswaran B" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
-          <div class="font-bold text-gray-900 mb-1">Bhuvaneswaran B</div>
+          <div class="font-bold text-gray-900 mb-1">Mr.Bhuvaneswaran B</div>
+          <div class="text-primary-600 text-sm font-semibold">Assistant professor (SG)</div>
           <div class="text-primary-600  text-sm font-semibold">Executive Member</div>
         </div>
 
-        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="images/santhiya_m.jpg" data-name="Santhiya M">
-          <img src="images/santhiya_m.jpg" alt="Santhiya M" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
-          <div class="font-bold text-gray-900 mb-1">Santhiya M</div>
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/13.png" data-name="Santhiya M">
+          <img src="Photos/13.png" alt="Santhiya M" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+          <div class="font-bold text-gray-900 mb-1">Ms.Santhiya M</div>
+          <div class="text-primary-600 text-sm font-semibold">Assistant Professor</div>
           <div class="text-primary-600 text-sm font-semibold">Executive Member</div>
         </div>
       </div>
@@ -254,10 +303,10 @@
           <div class="font-bold text-gray-900 mb-1">Jerry AI</div>
           <div class="text-primary-600 text-sm font-semibold">Art Agrawal</div>
         </div>
-        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Coming Soon" data-name="Coming Soon">
-  <img src="https://via.placeholder.com/400x200?text=Coming+Soon" alt="Coming Soon" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
-  <div class="font-bold text-gray-900 mb-1">Coming Soon</div>
-  <div class="text-primary-600 text-sm font-semibold"></div>
+        <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Photos/Partners/Yaazh Logo Color.png" data-name="Yaazh Software Studio">
+  <img src="Photos/Partners/Yaazh Logo Color.png" alt="Coming Soon" class="w-full h-48 object-cover rounded-lg mb-4 shadow-md">
+  <div class="font-bold text-gray-900 mb-1">Yaazh Software Studio</div>
+  <div class="text-primary-600 text-sm font-semibold">Arun Kannan</div>
 </div>
 
 <div class="person bg-gradient-to-b from-blue-50 to-white rounded-xl p-6 text-center border border-blue-100 hover:shadow-lg transition-all cursor-pointer" data-img="Coming Soon" data-name="Coming Soon">
